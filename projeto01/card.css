@@ -1,0 +1,81 @@
+/* mudar a cor do boby da pagina */
+body {
+    margin: 0px;
+    background-color: #2F2E9A;
+}
+
+/* Barra cinza no topo com título e informações do curso */
+.barra-cinza {
+    
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    background-color: darkgray;
+    color: white;
+}
+
+/* Barra cinza escuro à direita com imagem e perfil */
+.barra-cinzaEscuro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 110px;
+    width: 150px;
+    background-color: #748094;
+    color: white;
+}
+
+/* Estilo para a imagem do perfil na barra cinza escuro */
+.img {
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+/* Container para os cursos */
+.cursos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Estilo para cada bloco dos cursos */
+.curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Estilo para as imagens dos cursos na página principal */
+.curso-img {
+    border-radius: 20px;
+    height: 234px;
+    width: 454px;
+    margin-top: 20px;
+}
+
+/* Estilo para a imagem do curso na página de cursos depedendo do escolhido */
+.curso-img2 {
+
+    height: 330px;
+    width: 1495px;
+    margin-top: -16px;
+
+}
+
+/* Estilo para a descrição do curso na página de cursos depedendo do escolhido */
+.descrição {
+    width: 1485px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

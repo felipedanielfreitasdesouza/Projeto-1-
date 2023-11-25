@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAD-CS</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+     <!-- Aqui serão exibidos uma barra cinza com o nome do site e usando class de css para estilização -->
+    <div class="barra-cinza">
+        <h2 class="titulo">EAD-CS</h2>
+        <h3 class="titulo">educação a distância do colegio Souza</h3>
+    </div>
+
+    <!-- Aqui serão exibidos a imagen do perfil junto com uma barra cinza escuro e usando class de css para estilização --> 
+    <div class="barra-cinzaEscuro">
+        <img class="img" src="711769.png" alt="img">
+        <div>Perfil</div>
+    </div>
+
+    <!-- Aqui serão exibidos os principais cursos disponíveis usando mais uma vez class de css para estilização --> 
+    <h2 style="color: white;">Principais cursos disponíveis:</h2>
+
+    <!-- Aqui a o container principal dos cursos disponíveis usando mais uma vez class de css para estilização e data para guarda as informações do curso que, caso escolhido ira levar para a pagina de cursos -->
+    <div class="cursos-container" id="cursos-container">
+        <div class="curso" data-curso="Quimica Básica" data-img="curso-gratis-de-quimica-basica.jpg" data-status="Disponível" data-desc="O Curso de Química Básica é projetado para proporcionar uma compreensão sólida dos conceitos fundamentais da química. Ideal para estudantes iniciantes ou entusiastas que desejam estabelecer uma base sólida antes de explorar áreas mais avançadas da química. Este curso abrange desde os princípios atômicos até as reações químicas básicas.">
+            <img class="curso-img" src="curso-gratis-de-quimica-basica.jpg" alt="math" onclick="cursoinfo(this)">
+            <p style="color: white;">Curso de química básica grátis - Status:</p>
+            <p style="color: greenyellow;">Disponível</p>
+        </div>
+        <div class="curso" data-curso="Biologia Licenciada" data-img="header2.png" data-status="Disponível" data-desc="A Licenciatura em Biologia é um curso abrangente e emocionante projetado para preparar estudantes para se tornarem educadores altamente qualificados no mundo da Biologia. Este curso oferece uma educação sólida em Biologia, combinada com as habilidades pedagógicas necessárias para se tornar um professor eficaz.">
+            <img class="curso-img" src="header2.png" alt="bio" onclick="cursoinfo(this)">
+            <p style="color: white;">Curso de Biologia licenciada grátis - Status:</p>
+            <p style="color: greenyellow;">Disponível</p>
+        </div>
+        <div class="curso" data-curso="Física Prática" data-img="download.jpeg" data-status="Disponível" data-desc="O Curso de Física Prática é uma oportunidade única para os entusiastas da física explorarem os conceitos teóricos de uma maneira prática e envolvente. Este curso abrange uma variedade de experimentos e atividades que proporcionarão uma compreensão sólida dos princípios fundamentais da física.">
+            <img class="curso-img" src="download.jpeg" alt="history" onclick="cursoinfo(this)">
+            <p style="color: white;">Curso de Física prática grátis - Status:</p>
+            <p style="color: greenyellow;">Disponível</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="main.js"></script>
